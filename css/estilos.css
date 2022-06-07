@@ -1,0 +1,68 @@
+@font-face {
+    font-family: arthur;
+    src: url(TiroDevanagariSanskrit-Regular.ttf);
+}
+
+:root {
+    --fonte: arthur;
+    --cor-titulo: rgb(255, 23, 27);
+    --cor-caixa: rgb(43, 129, 181, 0.8);
+    --cor-borda:rgb(255, 253, 17);
+    
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor-caixa), var(--cor-titulo));
+    background-attachment: fixed;
+    font-family: var(--fonte);
+    width: 2050px;
+    max-width: 100%;
+    margin: 0 auto;
+
+
+}
+
+h1 {
+    color: var(--cor-titulo);
+    text-align: center;
+    font-size: 80px;
+    margin-top: 200px;
+}
+
+.faixa{
+    border-radius: 10px;
+    background-color: var(--cor-caixa);
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+h2 {
+    text-align: center;
+    color: var(--cor-borda);
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: solid var(--cor-borda) 4px;
+}
+
+p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.fundo {
+    background-image: url(../img/bike-mtb-copa-mundo-2018-myriam-nicole.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+.img-header {
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 60px;
+}
